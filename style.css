@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF8E7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #f3bc56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header img {
+    width: 7rem;
+}
+header nav {
+    display: flex;
+    gap: 20px;
+}
+header nav a, header .register {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header .register {
+    background-color: #FF4500;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.main-content {
+    padding: 20px;
+    background-image: url(img/fundo\ site.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.main-content .video-section,
+.main-content .store-info {
+    margin-bottom: 20px;
+}
+.video-section{
+    text-align: center;
+}
+.video-section video{
+    width: 70vw;
+}
+
+.tProdutos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.products .product {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+.product{
+    width: 30vw;
+    height: 19rem;
+    align-items: center;
+}
+img{
+    width: 12rem;
+}
+footer {
+    background-color: #FFA500;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer p {
+    margin: 10px 0;
+}
+footer .footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer .footer-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF4500;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
