@@ -52,6 +52,9 @@ header .register {
     gap: 20px;
     flex-wrap: wrap;
 }
+.products{
+    margin-top: 5rem;
+}
 .products .product {
     background-color: #FFD700;
     padding: 10px;

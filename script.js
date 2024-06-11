@@ -23,3 +23,36 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+window.revelar = ScrollReveal({reset:true});
+
+revelar.reveal('.efeitoDiv1', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'left'
+});
+
+revelar.reveal('.efeitoDiv2', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'bottom'
+});
+
+revelar.reveal('.efeitoDiv3', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'right'
+});
+
+revelar.reveal('.efeitoVideo', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'bottom'
+});
+
+revelar.reveal('.efeitoHeader', {
+    duration: 3000,
+    distance: '150px',
+    origin: 'top'
+});
